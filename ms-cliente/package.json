@@ -1,0 +1,33 @@
+{
+  "name": "ms-cliente",
+  "version": "1.0.0",
+  "description": "Microsserviço de Clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edircabsan/NodeJS.git"
+  },
+  "keywords": [
+    "microservice",
+    "nodejs",
+    "client"
+  ],
+  "bugs": {
+    "url": "https://github.com/edircabsan/NodeJS/issues"
+  },
+  "homepage": "https://github.com/edircabsan/NodeJS#readme"
+}
