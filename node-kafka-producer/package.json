@@ -1,0 +1,21 @@
+{
+  "name": "node-kafka-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/kafka-producer.js",
+  "scripts": {
+    "start": "node lib/kafka-producer.js",
+    "build": "babel --presets es2015 -d lib/ app",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^3.0.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
