@@ -18,7 +18,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 //Routes - Precisa ficar após a definição do BodyParser
 const product = require('./routes/product.route');
+const order = require('./routes/order.route');
 app.use('/products', product);
+app.use('/orders', order);
 
 let port = process.env.PORT || 3000;
 app.listen(port, () => {
