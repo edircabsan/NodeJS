@@ -22,6 +22,7 @@ exports.product_list = function(req, res){
         if(err){
             return next(err);
         }
+        
         res.send(results);
     })
 }
